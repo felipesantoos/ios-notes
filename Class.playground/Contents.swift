@@ -1,5 +1,4 @@
-import UIKit
-
+// We can work with inherintance and protocols
 class Person {
     // MARK: Attributes
     var firstName: String
@@ -14,7 +13,7 @@ class Person {
 
 // MARK: Objects
 var firstPerson: Person = Person(firstName: "Felipe", lastName: "Santos")
-var secondPerson: Person = firstPerson
+var secondPerson: Person = firstPerson // reference type
 
 // MARK: First printing
 print("First printing:")
@@ -28,4 +27,3 @@ firstPerson.firstName = "José"
 print("Second printing:")
 print(firstPerson.firstName)
 print(secondPerson.firstName)
- 
